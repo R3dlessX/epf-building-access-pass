@@ -1,0 +1,33 @@
+{
+	"formatVersion": 1,
+	"passTypeIdentifier": "pass.fr.epf.buildingdaccess",
+	"serialNumber": "EPF-2025-000001",
+	"teamIdentifier": "J3C4S9NMY6",
+	"organizationName": "STRELLASTUDIO",
+	"description": "Accès Campus - EPF",
+	"logoText": " ",
+	"foregroundColor": "rgb(0,0,0)",
+	"labelColor": "rgb(223,35,29)",
+	"barcodes": [
+		{
+			"format": "PKBarcodeFormatQR",
+			"message": "EPF-0001",
+			"messageEncoding": "utf-8",
+			"altText": "ID: EPF-2025-0001"
+		}
+	],
+	"generic": {
+		"headerFields": [{ "key": "status", "label": "lproj_access", "value": "CAMPUS" }],
+		"secondaryFields": [],
+		"auxiliaryFields": [],
+		"backFields": [
+			{
+				"key": "infos",
+				"label": "Infos",
+				"value": "Ce passe virtuel vous permet d'accéder plus facilement aux bâtiments de l'EPF.\n\n⚠️ Ce pass est non officiel et fourni uniquement à titre pratique.\n\nLes logos, marques et éléments graphiques restent la propriété exclusive de l’EPF."
+			}
+		]
+	},
+	"sharingProhibited": false,
+	"associatedStoreIdentifiers": []
+}

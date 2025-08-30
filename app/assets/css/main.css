@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+    --font-sans: 'Montserrat', sans-serif;
+    --ui-primary: #DF231D;
+}
