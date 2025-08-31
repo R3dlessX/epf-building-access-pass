@@ -63,7 +63,7 @@ function onSubmit () {
         first_name: form.prenom,
         last_name:  form.nom,
         id:         String(form.studentId || ''),
-        visitor:    form.wantLocation ? '1' : '0',
+        visitor:    '0',
         location:   form.wantLocation ? '1' : '0'
     })
     window.location.assign(`/api/apple?${params.toString()}`)
