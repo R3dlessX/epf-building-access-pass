@@ -16,7 +16,7 @@ export async function GenerateApplePass(data: EPFApplePass): Promise<PKPass> {
 			certificates: {
 				signerCert: fs.readFileSync("./certs/cert.pem"),
 				signerKey: fs.readFileSync("./certs/private.key"),
-				wwdr: fs.readFileSync("./server/model/passkit/AppleWWDRCAG4.pem"),
+				wwdr: fs.readFileSync("./certs/AppleWWDRCAG4.pem"),
 			},
 		},
 		{

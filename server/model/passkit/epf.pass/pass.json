@@ -4,6 +4,7 @@
 	"description": "Accès Campus - EPF",
 	"logoText": " ",
 	"foregroundColor": "rgb(0,0,0)",
+	"associatedStoreIdentifiers": [1626920029],
 	"labelColor": "rgb(223,35,29)",
 	"barcodes": [
 		{
@@ -24,6 +25,5 @@
 			}
 		]
 	},
-	"sharingProhibited": false,
-	"associatedStoreIdentifiers": []
+	"sharingProhibited": false
 }

@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  epf-building-access-pass:
+    image: ghcr.io/r3dlessx/epf-building-access-pass:latest
+    container_name: epf-building-access-pass
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.example
+    volumes:
+      # Mount Apple certificates (read-only)
+      - /home/epf-apple-certs:/certs:ro
