@@ -20,6 +20,9 @@ export async function GenerateApplePass(data: EPFApplePass): Promise<PKPass> {
 			},
 		},
 		{
+			passTypeIdentifier: process.env.PASS_TYPE_IDENTIFIER,
+			teamIdentifier: process.env.TEAM_IDENTIFIER,
+			organizationName: process.env.PASS_ORGANIZATION,
 			serialNumber: "EPF-" + data.id,
 		},
 	);

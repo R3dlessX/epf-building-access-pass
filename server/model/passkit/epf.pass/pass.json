@@ -1,9 +1,6 @@
 {
 	"formatVersion": 1,
-	"passTypeIdentifier": "pass.fr.epf.buildingdaccess",
-	"serialNumber": "EPF-2025-000001",
-	"teamIdentifier": "J3C4S9NMY6",
-	"organizationName": "STRELLASTUDIO",
+	"serialNumber": "EPF-0001",
 	"description": "Accès Campus - EPF",
 	"logoText": " ",
 	"foregroundColor": "rgb(0,0,0)",
@@ -13,7 +10,7 @@
 			"format": "PKBarcodeFormatQR",
 			"message": "EPF-0001",
 			"messageEncoding": "utf-8",
-			"altText": "ID: EPF-2025-0001"
+			"altText": "ID: EPF-0001"
 		}
 	],
 	"generic": {
