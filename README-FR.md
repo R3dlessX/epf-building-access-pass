@@ -42,6 +42,9 @@ L’objectif de ce projet est donc de proposer une solution simple et moderne pe
 
 ## 🛠️ Fonctionnalités prévues
 
+- [ ] **Génération de badge visiteur**
+  Possibilité de générer un badge pour les visiteurs.
+
 - [ ] **Intégration de Google Wallet**  
   Permettre l’ajout direct du pass d’accès dématérialisé dans **Google Wallet**, afin de supporter un plus grand nombre d’utilisateurs et d’appareils Android.
 

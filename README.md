@@ -44,6 +44,8 @@ The goal of this project is to provide a simple and modern solution that allows 
 ---
 
 ## 🛠️ Planned Features
+- [ ] **Visitor pass generation**  
+  Ability to generate a pass for visitors.
 
 - [ ] **Google Wallet integration**  
   Allow direct addition of the dematerialized access pass into **Google Wallet**, supporting a larger number of users and Android devices.
