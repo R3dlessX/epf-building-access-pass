@@ -1,4 +1,3 @@
-"lproj_last_name" = "APELLIDO";
-"lproj_first_name" = "NOMBRE";
+"lproj_name" = "TITULAR";
 "lproj_status" = "ESTADO";
 "lproj_access" = "ACCESO";

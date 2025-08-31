@@ -31,20 +31,15 @@ export async function GenerateApplePass(data: EPFApplePass): Promise<PKPass> {
 	});
 
 	if (!data.visitor) {
-		pass.secondaryFields.push(
+		pass.primaryFields.push(
 			{
-				key: "lproj_last_name",
-				label: "NOM",
-				value: data.last_name || "Néant",
-			},
-			{
-				key: "first_name",
-				label: "lproj_first_name",
-				value: data.first_name || "Néant",
-			},
+				key: "name",
+				label: "lproj_name",
+				value: data.last_name?.toUpperCase() + " "+ data.first_name,
+			}
 		);
 	} else {
-		pass.secondaryFields.push({
+		pass.primaryFields.push({
 			key: "visitor",
 			label: "lproj_status",
 			value: "Visiteur",
