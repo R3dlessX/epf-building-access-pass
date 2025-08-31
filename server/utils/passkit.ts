@@ -1,6 +1,7 @@
 import { PKPass } from "passkit-generator";
 import * as fs from "node:fs";
-
+import { fileURLToPath } from "url";
+import { dirname } from "path";
 export type EPFApplePass = {
 	first_name: string | null;
 	last_name: string | null;
@@ -10,7 +11,12 @@ export type EPFApplePass = {
 };
 
 export async function GenerateApplePass(data: EPFApplePass): Promise<PKPass> {
-	console.log(__dirname)
+
+	const __filename = fileURLToPath(import.meta.url);
+	const __dirname = dirname(__filename);
+
+	console.log(__dirname);
+
 	const pass = await PKPass.from(
 		{
 			model: import.meta.dev ? "./server/models/passkit/epf.pass":  "./models/passkit/epf.pass",
