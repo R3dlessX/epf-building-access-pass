@@ -2,6 +2,7 @@
 	"name": "epf-building-access-pass",
 	"version": "1.0.0",
 	"author": "R3dlessX",
+	"license": "GPL-3.0-only",
 	"type": "module",
 	"private": true,
 	"scripts": {
