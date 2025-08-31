@@ -12,7 +12,7 @@ export type EPFApplePass = {
 export async function GenerateApplePass(data: EPFApplePass): Promise<PKPass> {
 	const pass = await PKPass.from(
 		{
-			model: import.meta.dev ? "./server/models/passkit/epf.pass":  "./server/models/passkit/epf.pass",
+			model: import.meta.dev ? "./server/models/passkit/epf.pass":  "app/.output/server/models/passkit/epf.pass",
 			certificates: {
 				signerCert: fs.readFileSync("./certs/cert.pem"),
 				signerKey: fs.readFileSync("./certs/private.key"),
